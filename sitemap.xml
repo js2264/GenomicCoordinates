@@ -1,0 +1,16 @@
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>/404.html</loc></url>
+<url><loc>/articles/GenomicCoordinates.html</loc></url>
+<url><loc>/articles/index.html</loc></url>
+<url><loc>/authors.html</loc></url>
+<url><loc>/index.html</loc></url>
+<url><loc>/reference/GenomicCoordinates-IRanges.html</loc></url>
+<url><loc>/reference/GenomicCoordinates-coercion.html</loc></url>
+<url><loc>/reference/GenomicCoordinates.html</loc></url>
+<url><loc>/reference/detect_genomic_class.html</loc></url>
+<url><loc>/reference/dot-clean_numeric_string.html</loc></url>
+<url><loc>/reference/dot-handle_special_formats.html</loc></url>
+<url><loc>/reference/dot-is_single_position.html</loc></url>
+<url><loc>/reference/index.html</loc></url>
+</urlset>
+
