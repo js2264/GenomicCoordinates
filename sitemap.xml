@@ -4,13 +4,15 @@
 <url><loc>/articles/index.html</loc></url>
 <url><loc>/authors.html</loc></url>
 <url><loc>/index.html</loc></url>
-<url><loc>/reference/GenomicCoordinates-IRanges.html</loc></url>
-<url><loc>/reference/GenomicCoordinates-coercion.html</loc></url>
+<url><loc>/reference/GenomicCoordinates-package.html</loc></url>
 <url><loc>/reference/GenomicCoordinates.html</loc></url>
+<url><loc>/reference/as_gpos.html</loc></url>
+<url><loc>/reference/coercion.html</loc></url>
 <url><loc>/reference/detect_genomic_class.html</loc></url>
 <url><loc>/reference/dot-clean_numeric_string.html</loc></url>
 <url><loc>/reference/dot-handle_special_formats.html</loc></url>
 <url><loc>/reference/dot-is_single_position.html</loc></url>
 <url><loc>/reference/index.html</loc></url>
+<url><loc>/reference/reexports.html</loc></url>
 </urlset>
 
