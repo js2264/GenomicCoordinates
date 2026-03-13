@@ -543,7 +543,7 @@ sessionInfo()
 #> [8] base     
 #> 
 #> other attached packages:
-#> [1] GenomicCoordinates_0.99.0 GenomicRanges_1.63.1     
+#> [1] GenomicCoordinates_0.99.1 GenomicRanges_1.63.1     
 #> [3] Seqinfo_1.1.0             IRanges_2.45.0           
 #> [5] S4Vectors_0.49.0          BiocGenerics_0.57.0      
 #> [7] generics_0.1.4            BiocStyle_2.39.0         

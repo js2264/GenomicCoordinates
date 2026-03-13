@@ -8,11 +8,11 @@
 ## Citation
 
 Serizay J (2026). *GenomicCoordinates: Enhanced string parsing for
-genomic coordinates*. R package version 0.99.0.
+genomic coordinates*. R package version 0.99.1.
 
     @Manual{,
       title = {GenomicCoordinates: Enhanced string parsing for genomic coordinates},
       author = {Jacques Serizay},
       year = {2026},
-      note = {R package version 0.99.0},
+      note = {R package version 0.99.1},
     }
