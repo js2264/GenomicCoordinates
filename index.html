@@ -38,6 +38,7 @@
 <li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="search.json">
 </form></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://github.com/js2264/GenomicCoordinates/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul>
 </div>
 
@@ -96,7 +97,7 @@
 <span><span class="co">##   The character vector to convert to a GRanges object must contain strings of the form "chr:start-end" or "chr:start-end:strand", with end &gt;= start - 1, or "chr:pos" or "chr:pos:strand". For example: "chr1:2501-2900", "chr1:2501-2900:+",</span></span>
 <span><span class="co">##   or "chr1:740". Note that ".." is a valid alternate start/end separator. Strand can be "+", "-", "*", or missing.</span></span>
 <span>  </span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">GenomicCoordinates</span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/js2264/GenomicCoordinates" class="external-link">GenomicCoordinates</a></span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/pkg/GenomicRanges/man/GRanges-class.html" class="external-link">GRanges</a></span><span class="op">(</span><span class="st">"chr1:100,000-200,000"</span><span class="op">)</span></span>
 <span><span class="co">## Ranges object with 1 range and 0 metadata columns:</span></span>
 <span><span class="co">##      seqnames        ranges strand</span></span>
@@ -118,7 +119,15 @@
 <span><span class="fu"><a href="https://rdrr.io/pkg/IRanges/man/IRanges-constructor.html" class="external-link">IRanges</a></span><span class="op">(</span><span class="st">"1,234..56,345"</span><span class="op">)</span></span></code></pre></div>
 </div>
 </div>
-  </main><aside class="col-md-3"><div class="license">
+  </main><aside class="col-md-3"><div class="links">
+<h2 data-toc-skip>Links</h2>
+<ul class="list-unstyled">
+<li><a href="https://github.com/js2264/GenomicCoordinates/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/js2264/GenomicCoordinates/issues" class="external-link">Report a bug</a></li>
+</ul>
+</div>
+
+<div class="license">
 <h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
 <li><a href="https://www.r-project.org/Licenses/Artistic-2.0" class="external-link">Artistic-2.0</a></li>

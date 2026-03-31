@@ -43,3 +43,28 @@ as_ginteractions(
 ## Value
 
 A Bioconductor object
+
+## Examples
+
+``` r
+as_granges("chr1:1000-2000")
+#> GRanges object with 1 range and 0 metadata columns:
+#>       seqnames    ranges strand
+#>          <Rle> <IRanges>  <Rle>
+#>   [1]     chr1 1000-2000      *
+#>   -------
+#>   seqinfo: 1 sequence from an unspecified genome; no seqlengths
+as_iranges("1000-2000")
+#> IRanges object with 1 range and 0 metadata columns:
+#>           start       end     width
+#>       <integer> <integer> <integer>
+#>   [1]      1000      2000      1001
+as_ginteractions("chr1:1-10|chr2:20-30")
+#> GInteractions object with 1 interaction and 0 metadata columns:
+#>       seqnames1   ranges1 strand1     seqnames2   ranges2 strand2
+#>           <Rle> <IRanges>   <Rle>         <Rle> <IRanges>   <Rle>
+#>   [1]      chr1      1-10       * ---      chr2     20-30       *
+#>   -------
+#>   regions: 2 ranges and 0 metadata columns
+#>   seqinfo: 2 sequences from an unspecified genome; no seqlengths
+```

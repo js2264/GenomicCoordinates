@@ -375,7 +375,8 @@ GenomicCoordinates("chr1:1000", force_class = "GRanges")
 #>   -------
 #>   seqinfo: 1 sequence from an unspecified genome; no seqlengths
 
-# Force a single position to be a GPos instead of GRanges (removes the `end` coordinate)
+# Force a single position to be a GPos
+# instead of GRanges (removes the `end` coordinate)
 GenomicCoordinates("chr1:1000-2000", force_class = "GPos")
 #> UnstitchedGPos object with 1 position and 0 metadata columns:
 #>       seqnames       pos strand
@@ -498,10 +499,10 @@ without actually performing the parsing:
 
 # Detect classes for various input types
 inputs <- c(
-  "chr1:1000-2000",      # GRanges
-  "chr1:1000",           # GPos
-  "chr1:1-10|chr2:20-30", # GInteractions
-  "1000-2000"            # IRanges
+    "chr1:1000-2000",
+    "chr1:1000",
+    "chr1:1-10|chr2:20-30",
+    "1000-2000"
 )
 
 detect_genomic_class(inputs)
@@ -519,7 +520,7 @@ This is useful for:
 ``` r
 
 sessionInfo()
-#> R Under development (unstable) (2026-03-08 r89578)
+#> R Under development (unstable) (2026-03-28 r89738)
 #> Platform: x86_64-pc-linux-gnu
 #> Running under: Ubuntu 24.04.4 LTS
 #> 
@@ -550,20 +551,20 @@ sessionInfo()
 #> 
 #> loaded via a namespace (and not attached):
 #>  [1] SummarizedExperiment_1.41.1 rjson_0.2.23               
-#>  [3] xfun_0.56                   bslib_0.10.0               
-#>  [5] htmlwidgets_1.6.4           plyranges_1.31.1           
+#>  [3] xfun_0.57                   bslib_0.10.0               
+#>  [5] htmlwidgets_1.6.4           plyranges_1.31.5           
 #>  [7] Biobase_2.71.0              lattice_0.22-9             
-#>  [9] vctrs_0.7.1                 tools_4.6.0                
+#>  [9] vctrs_0.7.2                 tools_4.7.0                
 #> [11] bitops_1.0-9                curl_7.0.0                 
-#> [13] parallel_4.6.0              tibble_3.3.1               
-#> [15] pkgconfig_2.0.3             Matrix_1.7-4               
+#> [13] parallel_4.7.0              tibble_3.3.1               
+#> [15] pkgconfig_2.0.3             Matrix_1.7-5               
 #> [17] desc_1.4.3                  cigarillo_1.1.0            
-#> [19] lifecycle_1.0.5             compiler_4.6.0             
+#> [19] lifecycle_1.0.5             compiler_4.7.0             
 #> [21] Rsamtools_2.27.1            textshaping_1.0.5          
 #> [23] Biostrings_2.79.5           plyinteractions_1.9.2      
 #> [25] codetools_0.2-20            InteractionSet_1.39.0      
 #> [27] htmltools_0.5.9             sass_0.4.10                
-#> [29] RCurl_1.98-1.17             yaml_2.3.12                
+#> [29] RCurl_1.98-1.18             yaml_2.3.12                
 #> [31] pkgdown_2.2.0               pillar_1.11.1              
 #> [33] crayon_1.5.3                jquerylib_0.1.4            
 #> [35] BiocParallel_1.45.0         DelayedArray_0.37.0        
@@ -571,17 +572,17 @@ sessionInfo()
 #> [39] tidyselect_1.2.1            digest_0.6.39              
 #> [41] restfulr_0.0.16             dplyr_1.2.0                
 #> [43] bookdown_0.46               fastmap_1.2.0              
-#> [45] grid_4.6.0                  cli_3.6.5                  
+#> [45] grid_4.7.0                  cli_3.6.5                  
 #> [47] SparseArray_1.11.11         magrittr_2.0.4             
-#> [49] S4Arrays_1.11.1             XML_3.99-0.22              
-#> [51] httr_1.4.8                  rmarkdown_2.30             
+#> [49] S4Arrays_1.11.1             XML_3.99-0.23              
+#> [51] httr_1.4.8                  rmarkdown_2.31             
 #> [53] XVector_0.51.0              matrixStats_1.5.0          
-#> [55] otel_0.2.0                  ragg_1.5.1                 
+#> [55] otel_0.2.0                  ragg_1.5.2                 
 #> [57] evaluate_1.0.5              knitr_1.51                 
 #> [59] BiocIO_1.21.0               rtracklayer_1.71.3         
 #> [61] rlang_1.1.7                 Rcpp_1.1.1                 
 #> [63] glue_1.8.0                  BiocManager_1.30.27        
 #> [65] jsonlite_2.0.0              R6_2.6.1                   
 #> [67] MatrixGenerics_1.23.0       GenomicAlignments_1.47.0   
-#> [69] systemfonts_1.3.2           fs_1.6.7
+#> [69] systemfonts_1.3.2           fs_2.0.1
 ```

@@ -32,3 +32,16 @@ GInteractions objects.
 - `as_iranges(x)`: Convert character to IRanges
 
 - `as_ginteractions(x)`: Convert character to GInteractions
+
+## See also
+
+Useful links:
+
+- <https://github.com/js2264/GenomicCoordinates>
+
+- Report bugs at <https://github.com/js2264/GenomicCoordinates/issues>
+
+## Author
+
+**Maintainer**: Jacques Serizay <jacquesserizay@gmail.com>
+([ORCID](https://orcid.org/0000-0002-4295-0624))

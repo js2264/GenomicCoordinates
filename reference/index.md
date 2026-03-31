@@ -2,8 +2,6 @@
 
 ## All functions
 
-- [`GenomicCoordinates-package`](GenomicCoordinates-package.md) :
-  GenomicCoordinates: Enhanced string parsing for genomic coordinates
 - [`GenomicCoordinates()`](GenomicCoordinates.md) : GenomicCoordinates:
   Main parsing function
 - [`as_gpos()`](as_gpos.md) : Convert to GPos object

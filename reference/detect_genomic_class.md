@@ -18,3 +18,14 @@ detect_genomic_class(x)
 ## Value
 
 Character vector of predicted classes
+
+## Examples
+
+``` r
+detect_genomic_class("chr1:1000-2000")
+#> [1] "GRanges"
+detect_genomic_class("chr1:1000")
+#> [1] "GPos"
+detect_genomic_class(c("chr1:1-10|chr2:20-30", "1000-2000"))
+#> [1] "GInteractions" "IRanges"      
+```
